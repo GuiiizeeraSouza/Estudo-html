@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Cadastro liga dos Astronautas</title>
+    </head>
+        <body>
+            <h3>Cadastro liga dos Astronautas</h3>
+            <form>
+                    <div>
+                        <label for="q">Nome:</label>
+                        <input type="text" id="q" name="Nome"required>
+                    </div>
+            <br>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="Email:"required> -
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="Password:"required>
+                    </div>
+                <br>
+                    <div>
+                        <label for="DatadN">Data de nascimento:</label>
+                        <input type="date" id="DaradN" name="Data de nascimento:" placeholder="dd/mm/aaaa" required> -
+                        <label for="photo">Foto:</label>
+                        <input type="file" id="photo" name="photo"required>
+                    </div>
+                <br>
+                    <div>
+                        <label for="nacionalidade">Nacionalidade:</label>
+                        <select  name="nacionalidade" id="nacionalidade">
+                            <option value="russa">Russa</option>
+                            <option value="Americano">Americana</option>
+                            <option value="Brasileiro">Brasileira</option>
+                        </select> -
+
+                        Genero:
+                        <label for="feminino">F</label>
+                        <input type="radio" name="gender" id="feminino" value="feminino">
+                        <label for="masculino">M</label>
+                        <input type="radio" name="gender" id="masculino" value="masculino">
+                    </div>
+                    <br>
+                    <div>
+                       Suas principais qualidades:<br>
+                        <label for="int">Inteligencia</label>
+                        <input type="checkbox" name="Inteligencia" id="int"> |
+                        <label for="Resiliencia">Resiliência</label>
+                        <input type="checkbox" name="Resiliencia" id="Resiliencia">|
+                        <label for="PF">Preparo físico</label>
+                        <input type="checkbox" name="Preparo Fisico" id="PF"> |
+                        <label for="Edu">Educação</label>
+                        <input type="checkbox" name="Edu" id="Edu"> |
+                    </div>
+                    <br>
+                    <div>
+                        
+                        <textarea name="description" id="description" cols="30" rows="10" placeholder="Porque você deseja se tornar um astronauta?"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Criar">
+                    </div>
+             </form>  
+        </body>
+</html>
